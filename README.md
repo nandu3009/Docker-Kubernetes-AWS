@@ -5,6 +5,7 @@ Install Docker and VS Code extensions.
 - Build and run your first Docker image inside VS Code
 - COMMANDS:docker build -t testfile .
 docker run testfile
+
 DAY 2:
 COMMANDS:minikube start
 kubectl get nodes
