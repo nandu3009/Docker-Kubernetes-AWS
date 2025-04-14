@@ -48,5 +48,18 @@ eksctl create cluster --name nandini --region us-east-1 --nodes 2
 eksctl delete cluster --name nandini --region us-east-1
 
 
+DAY 4:
+Create Lambda and Bucket using AWS
+-Lambda creation:
+-open aws using credentials
+-create lambda function 
+-next open s3 and create Bucket
+
+
+
+DAY 5:
+
+
+
 
 
