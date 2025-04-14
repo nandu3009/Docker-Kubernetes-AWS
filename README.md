@@ -8,6 +8,8 @@ Install Docker and VS Code extensions.
 - docker run testfile
 - docker run -d -p 8000:8000
 
+
+
 DAY 2:
 COMMANDS:
 minikube start
@@ -22,6 +24,8 @@ kubectl apply -f service.yaml
 kubectl get pods
 minikube service book-scraper-service 
 Default output format [None]: json
+
+
 
 DAY 3:
 AWS CLI Configuration:
