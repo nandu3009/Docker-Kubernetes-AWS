@@ -1,4 +1,4 @@
-# Docker-Kubernetes
+# Docker/Kubernetes/AWS
 DAY 1:
 Install Docker and VS Code extensions.
 - Set up a basic Python project with Docker.
