@@ -7,6 +7,15 @@ Install Docker and VS Code extensions.
 - docker build -t testfile .
 - docker run testfile
 - docker run -d -p 8000:8000
+![container (1)](https://github.com/user-attachments/assets/3b9b5b49-417f-484a-9f89-53cb34a58040)
+
+
+
+
+
+
+
+![docker image](https://github.com/user-attachments/assets/d25e5b5c-78a2-4f94-ae41-e55ac2158965)
 
 
 
