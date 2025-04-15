@@ -17,3 +17,4 @@ Check the external IP:
 
 Open the external IP in your browser to access the app.
 
+output:file:Scrape.csv
