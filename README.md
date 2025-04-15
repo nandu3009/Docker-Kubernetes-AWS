@@ -1,39 +1,3 @@
-# Docker/Kubernetes/AWS
-DAY 1:
-Install Docker and VS Code extensions.
-- Set up a basic Python project with Docker.
-- Build and run your first Docker image inside VS Code
-- COMMANDS:
-- docker build -t testfile .
-- docker run testfile
-- docker run -d -p 8000:8000
-![container (1)](https://github.com/user-attachments/assets/3b9b5b49-417f-484a-9f89-53cb34a58040)
-
-
-
-
-
-
-
-![docker image](https://github.com/user-attachments/assets/d25e5b5c-78a2-4f94-ae41-e55ac2158965)
-
-
-
-DAY 2:
-COMMANDS:
-minikube start
-kubectl get nodes
-kubectl apply -f deployment.yaml
-docker build -t book-scraper:latest .
-minikube start
-minikube docker-env | Invoke-Expression  
-docker build -t book-scraper:latest .
-kubectl apply -f deployment.yaml
-kubectl apply -f service.yaml
-kubectl get pods
-minikube service book-scraper-service 
-Default output format [None]: json
-
 
 
 DAY 3:
@@ -139,11 +103,31 @@ Step 3: Upload Python Code to Lambda
    ```
    "Hello, Alice!"
    ```
-
-
-
-DAY 5:
-
+☁️ AWS (Amazon Web Services)
+a. 🔐 AWS Credentials Setup
+Creating IAM users
+Generating and configuring Access Key ID and Secret Access Key
+Using aws configure to set up credentials locally
+b. 🛠️ EC2 & Clusters
+Launching EC2 instances for testing
+Setting up EKS clusters using eksctl
+Managing node groups and clusters
+c. 🪣 S3 Buckets
+Creating S3 buckets
+Uploading/downloading files
+Setting bucket policies and permissions
+Static website hosting via S3
+d. ⚙️ Lambda Functions
+Writing serverless functions using Node.js/Python
+Creating Lambda functions via the AWS Console and CLI
+Triggering Lambda via S3 events, API Gateway, etc.
+Monitoring and logging with CloudWatch
+🧰 Tools & Technologies
+Docker
+Kubernetes (kubectl, minikube, eksctl)
+AWS CLI
+Terraform
+Git & GitHub
 
 
 
