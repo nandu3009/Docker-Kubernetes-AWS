@@ -9,7 +9,7 @@ Step 6: Define the Start Command
 Example: Full Dockerfile for a Python Flask App
 COMMANDS:
 -docker build -t my-flask-app .
--docker run -p 5000:5000 my-flask-app
+-docker run -p 8000:8000 my-flask-app
 
 
 ![container (1)](https://github.com/user-attachments/assets/ea4bd5b2-597d-4c3c-9072-d10af3244aca)
